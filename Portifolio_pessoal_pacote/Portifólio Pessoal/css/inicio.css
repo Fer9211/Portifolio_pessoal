@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(80deg, #ffd6dd, #aab3f3, #a3e8a3);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+@font-face {
+    font-family: 'font_titulo';
+    src: url('/css/fonts/ModernSans-Light.otf') format('opentype');
+  }
+p{
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.titulo{
+    width: 100%;
+    height: 500px;
+    font-family: font_titulo, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: -3px;
+    line-height: -200px;
+    line-height: 1;
+    text-align: center;
+}
+.subtitulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0px;
+    line-height: 0px;
+    line-height: 0;
+}
+.barra_acima{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.barra_acima a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "Gowun Dodum", sans-serif;
+}
+.links_acima1, .links_acima{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 50px;
+    width: 170px;
+}
+.links_acima1{
+
+    background-color: rgba(221, 220, 220, 0.9) ;
+    border-radius: 15px;
+}
+.projetos_finalizados{
+    display: flex;
+}
+.card_projetos_IFRO {
+    background-color: #D094E5;
+    width: 600px;
+    height: 500px;
+    border-radius: 60px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card_projetos_IFRO h3{
+    font-family: "Gowun Dodum", sans-serif;
+    font-size: 25px;
+}
+
+.card_projetos_galinha {
+    background-color: #6D948F;
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.img_porjetos {
+    width: 900px;
+    object-fit: cover; 
+    display: block; 
+    border-radius: 15px;
+    margin-left: 400px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto_titulo{
+    margin-top: 150px;
+}
