@@ -65,8 +65,9 @@ p{
 .projetos_finalizados{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-.card_projetos_IFRO {
+.card_projetos {
     background-color: #D094E5;
     width: 600px;
     height: 500px;
@@ -85,12 +86,40 @@ h3{
     font-weight: bold;
 }
 
-.card_projetos_galinha {
+.card_projetos2 {
     background-color: #6D948F;
     width: 1000px;
     height: 500px;
     border-radius: 60px;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card_projetos3 {
+    background-color: #E0D0A8;
+    width: 1000px;
+    height: 500px;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card_projetos4 {
+    background-color: #90AECF;
+    width: 600px;
+    height: 500px;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-top: 100px;
 
     display: flex;
     flex-direction: column;
@@ -114,6 +143,15 @@ h3{
     border-radius: 15px;
     margin-left: 100px;
     margin-top: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.img_porjetos3 {
+    width: 1000px;
+    object-fit: cover; 
+    display: block; 
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 570px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 .conteiner {
