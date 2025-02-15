@@ -64,6 +64,7 @@ p{
 }
 .projetos_finalizados{
     display: flex;
+    justify-content: space-around;
 }
 .card_projetos_IFRO {
     background-color: #D094E5;
@@ -78,17 +79,24 @@ p{
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.card_projetos_IFRO h3{
+h3{
     font-family: "Gowun Dodum", sans-serif;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .card_projetos_galinha {
     background-color: #6D948F;
-    width: 300px;
-    height: 300px;
+    width: 1000px;
+    height: 500px;
     border-radius: 60px;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .img_porjetos {
     width: 900px;
@@ -96,10 +104,28 @@ p{
     display: block; 
     border-radius: 15px;
     margin-left: 400px;
+    margin-top: 90px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
-
+.img_porjetos2 {
+    width: 1000px;
+    object-fit: cover; 
+    display: block; 
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
 .conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteiner2 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -110,4 +136,29 @@ p{
 }
 .texto_titulo{
     margin-top: 150px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    
 }
+.texto_titulo2{
+    margin-top: 170px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.texto h2{
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black;
+    font-size: 40px;
+    line-height: 0px;
+    margin-top: -10px;
+}
+
